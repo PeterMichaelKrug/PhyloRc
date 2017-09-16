@@ -1,0 +1,35 @@
+#template file to easily provide all the necessary values and configurations needed for
+#       MAIN-resampling.pl
+#please provide all data in the following scheme:
+#
+#   item = "value"
+#   **** will ignore lines starting with a # ****
+
+#   links and files
+
+    path_to_raxml = "./raxmlHPC-PTHREADS-SSE3"
+        #remove "./" if raxml is in your path,
+        #else make shure it is in this folder here
+    reference_topology = "v32_crono.tre"
+    alignment_file = "Backbone_mosses_comb_v32_3indelpartitions.fas.phylip"
+    partition_file = "part.txt"
+
+#   raxml options
+    num_threads = "4"
+    substitution_model = "BINGAMMA"
+    #   GTRGAMMA possible, but slow!
+    outgroup = "Sphagnum_capillifolium,Takakia_lepidozioides"
+
+#   resampling options
+    nboots_large = "100"
+    nboots_small = "25"
+    nreplicates = "100"
+    
+   
+#   specific options
+    noRs = 0
+        #wont calulate all Rs, if you just want one loop with normalized Rgradient
+    cleanup = 1
+        #deletes all RAxML_* files to get Raxml going (has no -f option :(
+    just_testing = 1
+        

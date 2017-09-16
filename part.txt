@@ -1,0 +1,3 @@
+BIN, indels=1-2560
+BIN, indels_nossr=2561-3903
+BIN, indels_SSR_only=3904-4313
