@@ -16,4 +16,4 @@ Thus, the results of Rc are presented as a list of differences between partition
 How To:
 The Main script is configured via template.txt. Here, you specify name and location of the alignment (in relaxed phylip format), the tree file and the partition file, furthermore raxml options, number of resampling replicates and bootstrap replicates.
 
-After the template file has been configured, invoke the scripts via "perl Mainresampling.pl template.txt".
+After the template file has been configured, invoke the scripts via "perl MAIN_resampling.pl template.txt".
