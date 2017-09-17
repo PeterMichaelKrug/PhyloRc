@@ -1,6 +1,6 @@
 # PhyloRc
 
-PhyloRc (or whatever it will be named after publication) is a couple of perl scripts from my third chapter of my thesis. It calculates three variants of phylogenetic structure (sensu Müller et al. 2006 (MPE)):
+PhyloRc (or whatever it will be named after publication) is a couple of perl scripts from my third chapter of my thesis. It calculates three variants of phylogenetic structure (sensu Müller et al. 2006 (MPE)):\n
 	Rc,free: the phylogenetic structure of a given partition (of an alignment) without constraining the topology
 	Rc,fix: the phylogenetic structure of a given partition with a constraint topology (i.e. a chronogram)
 	Rc,fix(S): the phylogenetic structure of a given partition under a constraint topology for a given subset of nodes (i.e. older or younger then the median age of the tree
