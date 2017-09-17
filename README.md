@@ -6,7 +6,7 @@ PhyloRc (or whatever it will be named after publication) is a couple of perl scr
 	
 	Rc,fix: the phylogenetic structure of a given partition with a constraint topology (i.e. a chronogram)
 	
-	Rc,fix(S): the phylogenetic structure of a given partition under a constraint topology for a given subset of nodes (i.e. older or younger then the median age of the tree
+	Rc,fix(S): the phylogenetic structure of a given partition under a constraint topology for a given subset of nodes (i.e. older or younger then the median age of the tree)
 
 This tools uses RAxML (Stammatakis et al. 2014 (Bioinformatics)) to compute bootstrap samples and to calculate the frequency of nodes either on the partition's ML-tree or the constraint topology.
 Since partitions (e.g. genes, introns, spacers) most likely differ in total nucleotide count, a resampling has to be done first to enable unbiased comparisons between each partitions (as much as possible). (See Krug et al. 2017 for details)
